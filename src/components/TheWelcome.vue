@@ -14,7 +14,7 @@ const nextToAboutPage = () => {
 </script>
 
 <template>
-  <button v-on:click="nextToAboutPage">Next to About</button>
+  <v-btn v-on:click="nextToAboutPage">Next to About</v-btn>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
